@@ -1,0 +1,29 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactlogo,.contactform{
+    height: 60vh;
+    width: 35vw;
+    padding: 0px 30px 0px 50px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactlogopic{
+    height: 30vh;
+    border: 1px solid black;
+}
+.contactin{
+    width: 20vw;
+}
+.username,.email,.message,.submitbutton{
+    width: 100%;
+}
+.message{
+    height: 20vh;
+}

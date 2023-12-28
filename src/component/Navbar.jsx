@@ -1,9 +1,6 @@
 import { AppBar , Box , Toolbar , Typography , Button } from "@mui/material"
 import { NavLink } from "react-router-dom"
-import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
-import { deepOrange } from '@mui/material/colors';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+
 
 export default function Navbar()
 {
@@ -21,7 +18,7 @@ export default function Navbar()
                         <Button  component = {NavLink} to = "/" variant = "outlined"  style={({ isActive }) => { return { borderColor: isActive ? '#00B5E2' : 'white' } }} sx = {{color : 'black',borderRadius:'20px'}}>Home</Button>
                         <Button component = {NavLink} to = "/categories"  variant = "outlined"  style={({ isActive }) => { return { borderColor: isActive ? '#00B5E2' : 'white' } }} sx = {{color: 'black',borderRadius:'20px'}}>Categories</Button>
                         <Button component = {NavLink} to = "/report"  variant = "outlined"  style={({ isActive }) => { return { borderColor: isActive ? '#00B5E2' : 'white' } }} sx = {{color : 'black',borderRadius:'20px'}}>Report</Button>
-                        <Button component = {NavLink} to = "/forum"  variant = "outlined"  style={({ isActive }) => { return { borderColor: isActive ? '#00B5E2' : 'white' } }} sx = {{color: 'black',borderRadius:'20px'}}>Forum</Button>
+                        <Button component = {NavLink} to = "/contact"  variant = "outlined"  style={({ isActive }) => { return { borderColor: isActive ? '#00B5E2' : 'white' } }} sx = {{color: 'black',borderRadius:'20px'}}>Contact</Button>
                         <Button component = {NavLink} to = "/blog"  variant = "outlined"  style={({ isActive }) => { return { borderColor: isActive ? '#00B5E2' : 'white' } }} sx = {{color : 'black',borderRadius:'20px'}}>Blog</Button>
                         <Button component = {NavLink} to = "/login"   variant = "outlined"  style={({ isActive }) => { return { borderColor: isActive ? '#00B5E2' : 'white' } }} sx = {{color : 'black',borderRadius:'20px'}}>LogIn/Register</Button>                          
                         </div>
